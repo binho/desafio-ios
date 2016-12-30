@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5735ACDD1E16DDF000D6CEBD /* NSTextAttachment+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5735ACDC1E16DDF000D6CEBD /* NSTextAttachment+Util.swift */; };
+		57D679BD1E155669003259B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D679BC1E155669003259B3 /* AppDelegate.swift */; };
+		57D679C51E155669003259B3 /* JavaPop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 57D679C31E155669003259B3 /* JavaPop.xcdatamodeld */; };
+		57D679C71E155669003259B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57D679C61E155669003259B3 /* Assets.xcassets */; };
+		57D679CA1E155669003259B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D679C81E155669003259B3 /* LaunchScreen.storyboard */; };
+		57D679D51E155669003259B3 /* JavaPopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D679D41E155669003259B3 /* JavaPopTests.swift */; };
+		57D679E51E155785003259B3 /* RepoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D679E41E155785003259B3 /* RepoViewController.swift */; };
+		57D679E71E15581E003259B3 /* RepoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D679E61E15581E003259B3 /* RepoCell.swift */; };
+		57D679E91E1562EE003259B3 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D679E81E1562EE003259B3 /* API.swift */; };
+		57D679EF1E156500003259B3 /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D679EE1E156500003259B3 /* Repo.swift */; };
+		57D679F11E156874003259B3 /* RepoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D679F01E156874003259B3 /* RepoAPI.swift */; };
+		57D679FA1E1587E8003259B3 /* Dictionary+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D679F91E1587E8003259B3 /* Dictionary+Util.swift */; };
+		57D679FC1E15A2E7003259B3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D679FB1E15A2E7003259B3 /* User.swift */; };
+		57D679FE1E15AF16003259B3 /* UIImageView+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D679FD1E15AF16003259B3 /* UIImageView+Util.swift */; };
+		57D67A031E16605B003259B3 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D67A021E16605B003259B3 /* UIColor+Hex.swift */; };
+		57D67A051E16624F003259B3 /* PullViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D67A041E16624F003259B3 /* PullViewController.swift */; };
+		57D67A071E166280003259B3 /* Pull.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D67A061E166280003259B3 /* Pull.swift */; };
+		57D67A0A1E1666D3003259B3 /* PullCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D67A091E1666D3003259B3 /* PullCell.swift */; };
+		57D67A0C1E169C51003259B3 /* UIImage+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D67A0B1E169C51003259B3 /* UIImage+Util.swift */; };
+		57D67A0F1E16ABED003259B3 /* PullAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D67A0E1E16ABED003259B3 /* PullAPI.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57D679D11E155669003259B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57D679B11E155669003259B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57D679B81E155669003259B3;
+			remoteInfo = JavaPop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5735ACDC1E16DDF000D6CEBD /* NSTextAttachment+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSTextAttachment+Util.swift"; sourceTree = "<group>"; };
+		57D679B91E155669003259B3 /* JavaPop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JavaPop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57D679BC1E155669003259B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57D679C41E155669003259B3 /* JavaPop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JavaPop.xcdatamodel; sourceTree = "<group>"; };
+		57D679C61E155669003259B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57D679C91E155669003259B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57D679CB1E155669003259B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57D679D01E155669003259B3 /* JavaPopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JavaPopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57D679D41E155669003259B3 /* JavaPopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JavaPopTests.swift; sourceTree = "<group>"; };
+		57D679D61E155669003259B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57D679E41E155785003259B3 /* RepoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoViewController.swift; sourceTree = "<group>"; };
+		57D679E61E15581E003259B3 /* RepoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RepoCell.swift; path = ../RepoCell.swift; sourceTree = "<group>"; };
+		57D679E81E1562EE003259B3 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		57D679EE1E156500003259B3 /* Repo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
+		57D679F01E156874003259B3 /* RepoAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoAPI.swift; sourceTree = "<group>"; };
+		57D679F91E1587E8003259B3 /* Dictionary+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+Util.swift"; sourceTree = "<group>"; };
+		57D679FB1E15A2E7003259B3 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		57D679FD1E15AF16003259B3 /* UIImageView+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Util.swift"; sourceTree = "<group>"; };
+		57D67A021E16605B003259B3 /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		57D67A041E16624F003259B3 /* PullViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullViewController.swift; sourceTree = "<group>"; };
+		57D67A061E166280003259B3 /* Pull.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pull.swift; sourceTree = "<group>"; };
+		57D67A091E1666D3003259B3 /* PullCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullCell.swift; sourceTree = "<group>"; };
+		57D67A0B1E169C51003259B3 /* UIImage+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Util.swift"; sourceTree = "<group>"; };
+		57D67A0E1E16ABED003259B3 /* PullAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullAPI.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57D679B61E155669003259B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D679CD1E155669003259B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57D679B01E155669003259B3 = {
+			isa = PBXGroup;
+			children = (
+				57D679BB1E155669003259B3 /* JavaPop */,
+				57D679D31E155669003259B3 /* JavaPopTests */,
+				57D679BA1E155669003259B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57D679BA1E155669003259B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57D679B91E155669003259B3 /* JavaPop.app */,
+				57D679D01E155669003259B3 /* JavaPopTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57D679BB1E155669003259B3 /* JavaPop */ = {
+			isa = PBXGroup;
+			children = (
+				57D679F81E1587D8003259B3 /* Extensions */,
+				57D67A0D1E16ABD8003259B3 /* API */,
+				57D679E11E155768003259B3 /* View Controllers */,
+				57D679E31E155768003259B3 /* Models */,
+				57D679BC1E155669003259B3 /* AppDelegate.swift */,
+				57D679C61E155669003259B3 /* Assets.xcassets */,
+				57D679C81E155669003259B3 /* LaunchScreen.storyboard */,
+				57D679CB1E155669003259B3 /* Info.plist */,
+				57D679C31E155669003259B3 /* JavaPop.xcdatamodeld */,
+			);
+			path = JavaPop;
+			sourceTree = "<group>";
+		};
+		57D679D31E155669003259B3 /* JavaPopTests */ = {
+			isa = PBXGroup;
+			children = (
+				57D679D41E155669003259B3 /* JavaPopTests.swift */,
+				57D679D61E155669003259B3 /* Info.plist */,
+			);
+			path = JavaPopTests;
+			sourceTree = "<group>";
+		};
+		57D679E11E155768003259B3 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				57D67A081E1666C4003259B3 /* Cells */,
+				57D679E41E155785003259B3 /* RepoViewController.swift */,
+				57D67A041E16624F003259B3 /* PullViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		57D679E31E155768003259B3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				57D679EE1E156500003259B3 /* Repo.swift */,
+				57D679FB1E15A2E7003259B3 /* User.swift */,
+				57D67A061E166280003259B3 /* Pull.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		57D679F81E1587D8003259B3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				57D679F91E1587E8003259B3 /* Dictionary+Util.swift */,
+				57D679FD1E15AF16003259B3 /* UIImageView+Util.swift */,
+				57D67A021E16605B003259B3 /* UIColor+Hex.swift */,
+				57D67A0B1E169C51003259B3 /* UIImage+Util.swift */,
+				5735ACDC1E16DDF000D6CEBD /* NSTextAttachment+Util.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		57D67A081E1666C4003259B3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				57D679E61E15581E003259B3 /* RepoCell.swift */,
+				57D67A091E1666D3003259B3 /* PullCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		57D67A0D1E16ABD8003259B3 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				57D679E81E1562EE003259B3 /* API.swift */,
+				57D679F01E156874003259B3 /* RepoAPI.swift */,
+				57D67A0E1E16ABED003259B3 /* PullAPI.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57D679B81E155669003259B3 /* JavaPop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57D679D91E155669003259B3 /* Build configuration list for PBXNativeTarget "JavaPop" */;
+			buildPhases = (
+				57D679B51E155669003259B3 /* Sources */,
+				57D679B61E155669003259B3 /* Frameworks */,
+				57D679B71E155669003259B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JavaPop;
+			productName = JavaPop;
+			productReference = 57D679B91E155669003259B3 /* JavaPop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57D679CF1E155669003259B3 /* JavaPopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57D679DC1E155669003259B3 /* Build configuration list for PBXNativeTarget "JavaPopTests" */;
+			buildPhases = (
+				57D679CC1E155669003259B3 /* Sources */,
+				57D679CD1E155669003259B3 /* Frameworks */,
+				57D679CE1E155669003259B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57D679D21E155669003259B3 /* PBXTargetDependency */,
+			);
+			name = JavaPopTests;
+			productName = JavaPopTests;
+			productReference = 57D679D01E155669003259B3 /* JavaPopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57D679B11E155669003259B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Cleber Santos";
+				TargetAttributes = {
+					57D679B81E155669003259B3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					57D679CF1E155669003259B3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 57D679B81E155669003259B3;
+					};
+				};
+			};
+			buildConfigurationList = 57D679B41E155669003259B3 /* Build configuration list for PBXProject "JavaPop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57D679B01E155669003259B3;
+			productRefGroup = 57D679BA1E155669003259B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57D679B81E155669003259B3 /* JavaPop */,
+				57D679CF1E155669003259B3 /* JavaPopTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57D679B71E155669003259B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D679CA1E155669003259B3 /* LaunchScreen.storyboard in Resources */,
+				57D679C71E155669003259B3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D679CE1E155669003259B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57D679B51E155669003259B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5735ACDD1E16DDF000D6CEBD /* NSTextAttachment+Util.swift in Sources */,
+				57D679FE1E15AF16003259B3 /* UIImageView+Util.swift in Sources */,
+				57D679C51E155669003259B3 /* JavaPop.xcdatamodeld in Sources */,
+				57D67A0A1E1666D3003259B3 /* PullCell.swift in Sources */,
+				57D679BD1E155669003259B3 /* AppDelegate.swift in Sources */,
+				57D679E51E155785003259B3 /* RepoViewController.swift in Sources */,
+				57D67A071E166280003259B3 /* Pull.swift in Sources */,
+				57D679FA1E1587E8003259B3 /* Dictionary+Util.swift in Sources */,
+				57D67A031E16605B003259B3 /* UIColor+Hex.swift in Sources */,
+				57D679EF1E156500003259B3 /* Repo.swift in Sources */,
+				57D67A051E16624F003259B3 /* PullViewController.swift in Sources */,
+				57D679FC1E15A2E7003259B3 /* User.swift in Sources */,
+				57D67A0C1E169C51003259B3 /* UIImage+Util.swift in Sources */,
+				57D679E91E1562EE003259B3 /* API.swift in Sources */,
+				57D679E71E15581E003259B3 /* RepoCell.swift in Sources */,
+				57D679F11E156874003259B3 /* RepoAPI.swift in Sources */,
+				57D67A0F1E16ABED003259B3 /* PullAPI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D679CC1E155669003259B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D679D51E155669003259B3 /* JavaPopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57D679D21E155669003259B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57D679B81E155669003259B3 /* JavaPop */;
+			targetProxy = 57D679D11E155669003259B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57D679C81E155669003259B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57D679C91E155669003259B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57D679D71E155669003259B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57D679D81E155669003259B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57D679DA1E155669003259B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JavaPop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clebersantos.JavaPop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		57D679DB1E155669003259B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JavaPop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clebersantos.JavaPop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		57D679DD1E155669003259B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JavaPopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clebersantos.JavaPopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JavaPop.app/JavaPop";
+			};
+			name = Debug;
+		};
+		57D679DE1E155669003259B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JavaPopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clebersantos.JavaPopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JavaPop.app/JavaPop";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57D679B41E155669003259B3 /* Build configuration list for PBXProject "JavaPop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57D679D71E155669003259B3 /* Debug */,
+				57D679D81E155669003259B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57D679D91E155669003259B3 /* Build configuration list for PBXNativeTarget "JavaPop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57D679DA1E155669003259B3 /* Debug */,
+				57D679DB1E155669003259B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57D679DC1E155669003259B3 /* Build configuration list for PBXNativeTarget "JavaPopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57D679DD1E155669003259B3 /* Debug */,
+				57D679DE1E155669003259B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		57D679C31E155669003259B3 /* JavaPop.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				57D679C41E155669003259B3 /* JavaPop.xcdatamodel */,
+			);
+			currentVersion = 57D679C41E155669003259B3 /* JavaPop.xcdatamodel */;
+			path = JavaPop.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 57D679B11E155669003259B3 /* Project object */;
+}
