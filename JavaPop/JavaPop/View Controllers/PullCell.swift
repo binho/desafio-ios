@@ -46,13 +46,13 @@ class PullCell: UITableViewCell {
         // Repo
         
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
-        titleLabel.textColor = UIColor(hexString: "0b649f")
+        titleLabel.textColor = Color.customBlue
         
         descriptionLabel.translatesAutoresizingMaskIntoConstraints = false
         descriptionLabel.font = UIFont.systemFont(ofSize: 12)
         descriptionLabel.numberOfLines = 2
         descriptionLabel.lineBreakMode = NSLineBreakMode.byTruncatingTail
-        descriptionLabel.textColor = UIColor(hexString: "0a0a0a")
+        descriptionLabel.textColor = Color.customDarkGray
         
         // User
         userAvatarContainerView.translatesAutoresizingMaskIntoConstraints = false
@@ -68,12 +68,12 @@ class PullCell: UITableViewCell {
         
         userNameLabel.translatesAutoresizingMaskIntoConstraints = false
         userNameLabel.textAlignment = .left
-        userNameLabel.textColor = UIColor(hexString: "a4a4a5")
+        userNameLabel.textColor = Color.customGray
         userNameLabel.font = UIFont.systemFont(ofSize: 12)
         
         userUsernameLabel.translatesAutoresizingMaskIntoConstraints = false
         userUsernameLabel.textAlignment = .left
-        userUsernameLabel.textColor = UIColor(hexString: "0b649f")
+        userUsernameLabel.textColor = Color.customBlue
         userUsernameLabel.font = UIFont.systemFont(ofSize: 12)
         
         pullContainerView.addSubview(titleLabel)

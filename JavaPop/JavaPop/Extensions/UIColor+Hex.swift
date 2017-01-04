@@ -2,6 +2,7 @@ import Foundation
 import UIKit
 
 extension UIColor {
+
     convenience init(hexString: String) {
         let hex = hexString.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
         var int = UInt32()
@@ -22,4 +23,5 @@ extension UIColor {
         
         self.init(red: CGFloat(r) / 255, green: CGFloat(g) / 255, blue: CGFloat(b) / 255, alpha: CGFloat(a) / 255)
     }
+
 }

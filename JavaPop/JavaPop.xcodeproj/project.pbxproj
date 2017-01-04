@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5721F8191E1AE2DA0047EAE7 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5721F8181E1AE2DA0047EAE7 /* Color.swift */; };
 		5735ACDD1E16DDF000D6CEBD /* NSTextAttachment+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5735ACDC1E16DDF000D6CEBD /* NSTextAttachment+Util.swift */; };
 		57D679BD1E155669003259B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D679BC1E155669003259B3 /* AppDelegate.swift */; };
 		57D679C51E155669003259B3 /* JavaPop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 57D679C31E155669003259B3 /* JavaPop.xcdatamodeld */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5721F8181E1AE2DA0047EAE7 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		5735ACDC1E16DDF000D6CEBD /* NSTextAttachment+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSTextAttachment+Util.swift"; sourceTree = "<group>"; };
 		57D679B91E155669003259B3 /* JavaPop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JavaPop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57D679BC1E155669003259B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 		57D679BB1E155669003259B3 /* JavaPop */ = {
 			isa = PBXGroup;
 			children = (
+				5721F8181E1AE2DA0047EAE7 /* Color.swift */,
 				57D679F81E1587D8003259B3 /* Extensions */,
 				57D67A0D1E16ABD8003259B3 /* API */,
 				57D679E11E155768003259B3 /* View Controllers */,
@@ -297,6 +300,7 @@
 				57D679E71E15581E003259B3 /* RepoCell.swift in Sources */,
 				57D679F11E156874003259B3 /* RepoAPI.swift in Sources */,
 				57D67A0F1E16ABED003259B3 /* PullAPI.swift in Sources */,
+				5721F8191E1AE2DA0047EAE7 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

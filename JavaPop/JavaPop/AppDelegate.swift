@@ -17,11 +17,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func customizeStyle() {
         UINavigationBar.appearance().titleTextAttributes = [
             NSFontAttributeName: UIFont.boldSystemFont(ofSize: 20),
-            NSForegroundColorAttributeName: UIColor.white
+            NSForegroundColorAttributeName: Color.navigationBarFontColor
         ]
         
-        UINavigationBar.appearance().barTintColor = UIColor.black
-        UINavigationBar.appearance().tintColor = UIColor.white
+        UINavigationBar.appearance().barTintColor = Color.navigationBarBackgroundColor
+        UINavigationBar.appearance().tintColor = Color.navigationBarFontColor
     }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {

@@ -57,17 +57,17 @@ class RepoCell: UITableViewCell {
         // Repo
         
         nameLabel.translatesAutoresizingMaskIntoConstraints = false
-        nameLabel.textColor = UIColor(hexString: "0b649f")
+        nameLabel.textColor = Color.customBlue
         
         descLabel.translatesAutoresizingMaskIntoConstraints = false
         descLabel.font = UIFont.systemFont(ofSize: 12)
         descLabel.numberOfLines = 2
         descLabel.lineBreakMode = NSLineBreakMode.byTruncatingTail
-        descLabel.textColor = UIColor(hexString: "0a0a0a")
+        descLabel.textColor = Color.customDarkGray
         
         infoLabel.translatesAutoresizingMaskIntoConstraints = false
         infoLabel.font = UIFont.systemFont(ofSize: 16)
-        infoLabel.textColor = UIColor(hexString: "dd910c")
+        infoLabel.textColor = Color.customOrange
         
         // User
         
@@ -80,12 +80,12 @@ class RepoCell: UITableViewCell {
         
         userNameLabel.translatesAutoresizingMaskIntoConstraints = false
         userNameLabel.textAlignment = .center
-        userNameLabel.textColor = UIColor(hexString: "a4a4a5")
+        userNameLabel.textColor = Color.customGray
         userNameLabel.font = UIFont.systemFont(ofSize: 12)
         
         userUsernameLabel.translatesAutoresizingMaskIntoConstraints = false
         userUsernameLabel.textAlignment = .center
-        userUsernameLabel.textColor = UIColor(hexString: "0b649f")
+        userUsernameLabel.textColor = Color.customBlue
         userUsernameLabel.font = UIFont.systemFont(ofSize: 12)
         
         repoContainerView.addSubview(nameLabel)
