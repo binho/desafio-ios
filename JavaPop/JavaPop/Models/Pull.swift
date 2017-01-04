@@ -25,11 +25,11 @@ class Pull {
     }
     
     class func createFromJSON(_ pullDict: Dictionary<String, AnyObject>) -> Pull! {
-
         if let title = pullDict["title"] as? String,
-            let description = pullDict["body"] as? String,
             let stateString = pullDict["state"] as? String {
 
+            let description = pullDict["body"] as? String ?? ""
+            
             return Pull(title: title, description: description, state: State(rawValue: stateString)!)
         }
         
